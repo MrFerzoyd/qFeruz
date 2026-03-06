@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css"><script src="https://kit.fontawesome.com/627660268e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Floating Background Elements -->
+  <div class="bg-float float-1"></div>
+  <div class="bg-float float-2"></div>
+  <div class="bg-float float-3"></div>
+  <div class="bg-float float-4"></div>
+
+  <!-- Code Elements -->
+  <div class="code-element code-1">&lt;div class="hero"&gt;</div>
+  <div class="code-element code-2">&lt;/&gt;</div>
+  <div class="code-element code-3">const portfolio = {...}</div>
+  <div class="code-element code-4">&lt;Component /&gt;</div>
+  <div class="code-element code-5">function render() {}</div>
+  <div class="code-element code-6">import React from 'react'</div>
+  <div class="code-element code-7">const [state, setState]</div>
+  <div class="code-element code-8">.map(item =&gt; item)</div>
+  <div class="code-element code-9">async function fetch() {}</div>
+  <div class="code-element code-10">&lt;button onClick&gt;</div>
+  <div class="code-element code-11">export default App</div>
+  <div class="code-element code-12">className="container"</div>
+  <div class="code-element code-13">interface Props {}</div>
+  <div class="code-element code-14">.filter(x =&gt; x !== null)</div>
+  <div class="code-element code-15">useEffect(() =&gt; {})</div>
+
+  <!-- Navigation -->
+  <nav>
+    <nav-container>
+      <div class="nav-brand">&lt;qFeruz /&gt;</div>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#socials">Socials</a>
+      </div>
+      <button id="themeToggle" style="position: absolute; right: 24px; background: none; border: none; cursor: pointer; font-size: 20px; color: var(--text-primary);">🌙</button>
+    </nav-container>
+  </nav>
+
+  <!-- Home / Terminal Section -->
+  <section id="home" class="container-wrapper">
+    <div class="terminal-container">
+      <div class="terminal">
+        <div class="terminal-header">
+          <div class="terminal-dot dot-red"></div>
+          <div class="terminal-dot dot-yellow"></div>
+          <div class="terminal-dot dot-green"></div>
+          <div class="terminal-title">portfolio.sh</div>
+        </div>
+        <div class="terminal-content" id="terminalContent">
+          <div class="terminal-command">$ portfolio --info</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section container-wrapper">
+    <h2 class="section-title">Skills & Experience</h2>
+    <div class="skills-container">
+      <div class="orbit-path"></div>
+      
+      <div class="skill-center">
+        <div class="skill-icon">&lt;/&gt;</div>
+        <div class="skill-center-label">Web Developer</div>
+      </div>
+
+      <div id="skillsContainer"></div>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates-section container-wrapper">
+    <h2 class="section-title">My Certificates</h2>
+    <div class="certificates-grid" id="certificatesGrid"></div>
+  </section>
+
+  <!-- Socials Section -->
+  <section id="socials" class="socials-section container-wrapper">
+    <h2 class="section-title">Let's Connect</h2>
+    <div class="contact-form-container">
+
+    <div class="socials-container" id="socialsContainer"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Crafted with passion and code</p>
+    <p>© 2024 Portfolio. All rights reserved.</p>
+  </footer>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
