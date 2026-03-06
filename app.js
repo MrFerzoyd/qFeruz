@@ -24,7 +24,7 @@
       { name: 'HTML', level: 85 },
       { name: 'CSS', level: 55 },
       { name: 'JS', level: 40 },
-      { name: 'Node.js', level: 75 },
+      { name: 'Type.js', level: 75 },
       { name: 'Tailwind', level: 90 }
     ];
 
